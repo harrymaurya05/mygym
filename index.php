@@ -3,8 +3,8 @@
 <head>
 	<title>Gym Website Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="web/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="web/css/style.css">
   <style>
     .wow:first-child {
       visibility: hidden;
@@ -26,7 +26,7 @@
  	 	</a>
  	 	<div class="nav">
  	 		<ul>
- 	 			<li><a href="../src/index.php" >Home</a></li>
+ 	 			<li><a href="src/index.php" >Home</a></li>
  	 			<li><a href="#about">About</a></li>
  	 			<li><a href="#service">Services</a></li>
  	 			<li><a href="#classes">Classes</a></li>
@@ -62,7 +62,7 @@
   	  	  	   <div class="box wow bounceInUp">
   	  	  	   	   <div class="inner">
   	  	  	   	   	   <div class="img">
-  	  	  	   	   	   	  <img src="images/about1.jpg" alt="about" />
+  	  	  	   	   	   	  <img src="web/images/about1.jpg" alt="about" />
   	  	  	   	   	   </div>
                        <div class="text">
                        	   <h4>Free Consultation</h4>
@@ -73,7 +73,7 @@
   	  	  	   	<div class="box wow bounceInUp" data-wow-delay="0.2s">
   	  	  	   	   <div class="inner">
   	  	  	   	   	   <div class="img">
-  	  	  	   	   	   	  <img src="images/about2.jpg" alt="about" />
+  	  	  	   	   	   	  <img src="web/images/about2.jpg" alt="about" />
   	  	  	   	   	   </div>
                        <div class="text">
                        	   <h4>Best Training</h4>
@@ -84,7 +84,7 @@
   	  	  	   <div class="box wow bounceInUp" data-wow-delay="0.4s">
   	  	  	   	   <div class="inner">
   	  	  	   	   	   <div class="img">
-  	  	  	   	   	   	  <img src="images/about3.jpg" alt="about" />
+  	  	  	   	   	   	  <img src="web/images/about3.jpg" alt="about" />
   	  	  	   	   	   </div>
                        <div class="text">
                        	   <h4>Build Perfect Body</h4>
@@ -156,7 +156,7 @@
 	<div class="container">
 		 <div class="content">
 		 	  <div class="box img wow slideInLeft">
-		 	  	 <img src="images/class2.png" alt="classes" />
+		 	  	 <img src="web/images/class2.png" alt="classes" />
 		 	  </div>
 		 	  <div class="box text wow slideInRight">
 		 	  	 <h2>Our Classes</h2>
@@ -164,7 +164,7 @@
 		 	  	<div class="class-items">
 		 	  	 <div class="item wow bounceInUp">
                      <div class="item-img">
-                     	 <img src="images/class1.jpg" alt="classes" />
+                     	 <img src="web/images/class1.jpg" alt="classes" />
                      	 <div class="price">
                      	 	 $99
                      	 </div>
@@ -182,7 +182,7 @@
                      	  <a href="">Get Details</a>
                      </div>
                      <div class="item-img">
-                     	 <img src="images/class1.jpg" alt="classes" />
+                     	 <img src="web/images/class1.jpg" alt="classes" />
                      	 <div class="price">
                      	 	 $99
                      	 </div>
@@ -205,7 +205,7 @@
  		 	  	 <a href="" class="btn">Start Now</a>
  		 	  </div>
  		 	  <div class="box img wow slideInRight">
- 		 	  	 <img src="images/gallery4.jpg" alt="start today" />
+ 		 	  	 <img src="web/images/gallery4.jpg" alt="start today" />
  		 	  </div>
 
  		 </div>
@@ -222,7 +222,7 @@
   	 	  	   	   <p>
   	 	  	   	   	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
   	 	  	   	   </p>
-  	 	  	   	   <img src="images/schedule1.png" alt="schedule" />
+  	 	  	   	   <img src="web/images/schedule1.png" alt="schedule" />
   	 	  	   </div>
   	 	  	   <div class="box timing wow slideInRight">
                    <table class="table">
@@ -276,16 +276,16 @@
   	 <h2>Workout Gallery</h2>
   	<div class="content">
   		 <div class="box wow slideInLeft">
-  		 	 <img src="images/gallery1.jpg" alt="gallery" />
+  		 	 <img src="web/images/gallery1.jpg" alt="gallery" />
   		 </div>
   		 <div class="box wow slideInRight">
-  		 	 <img src="images/gallery2.jpg" alt="gallery" />
+  		 	 <img src="web/images/gallery2.jpg" alt="gallery" />
   		 </div>
   		 <div class="box wow slideInLeft">
-  		 	 <img src="images/gallery3.jpg" alt="gallery" />
+  		 	 <img src="web/images/gallery3.jpg" alt="gallery" />
   		 </div>
   		 <div class="box wow slideInRight">
-  		 	 <img src="images/gallery4.jpg" alt="gallery" />
+  		 	 <img src="web/images/gallery4.jpg" alt="gallery" />
   		 </div>
   	</div>
   </section>
@@ -303,7 +303,7 @@
   	 	  	  	  	   	  $59/Month
   	 	  	  	  	   </div>
   	 	  	  	  	   <div class="img">
-  	 	  	  	  	   	 <img src="images/price1.jpg" alt="price" />
+  	 	  	  	  	   	 <img src="web/images/price1.jpg" alt="price" />
   	 	  	  	  	   </div>
   	 	  	  	  	   <div class="text">
   	 	  	  	  	   	  <h3>Body Building Training</h3>
@@ -322,7 +322,7 @@
   	 	  	  	  	   	  $69/Month
   	 	  	  	  	   </div>
   	 	  	  	  	   <div class="img">
-  	 	  	  	  	   	 <img src="images/price2.jpg" alt="price" />
+  	 	  	  	  	   	 <img src="web/images/price2.jpg" alt="price" />
   	 	  	  	  	   </div>
   	 	  	  	  	   <div class="text">
   	 	  	  	  	   	  <h3>Body Building Training</h3>
@@ -341,7 +341,7 @@
   	 	  	  	  	   	  $99/Month
   	 	  	  	  	   </div>
   	 	  	  	  	   <div class="img">
-  	 	  	  	  	   	 <img src="images/price3.jpg" alt="price" />
+  	 	  	  	  	   	 <img src="web/images/price3.jpg" alt="price" />
   	 	  	  	  	   </div>
   	 	  	  	  	   <div class="text">
   	 	  	  	  	   	  <h3>Body Building Training</h3>
@@ -442,7 +442,7 @@
 })
 
 </script>
-<script src="js/wow.min.js"></script>
+<script src="web/js/wow.min.js"></script>
 <script>
     wow = new WOW(
       {
