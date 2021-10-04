@@ -27,7 +27,7 @@ CREATE TABLE `users`  (
   `username` varchar(40) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `gender` varchar(8) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `mobile` varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
-  `email` varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `email` varchar(120) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `dob` varchar(10) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `joining_date` varchar(10) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   PRIMARY KEY (`userid`) USING BTREE,
