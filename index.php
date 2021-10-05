@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gym Website Template</title>
+	<title>AK Fitness Club</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="web/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="web/css/style.css">
