@@ -70,7 +70,7 @@
                        </div>
   	  	  	   	   </div>
   	  	  	   </div>
-  	  	  	   	<div class="box wow bounceInUp" data-wow-delay="0.2s">
+  	  	  	   	<div class="box wow bounceInUp" data-wow-delay="0.5s">
   	  	  	   	   <div class="inner">
   	  	  	   	   	   <div class="img">
   	  	  	   	   	   	  <img src="web/images/about2.jpg" alt="about" />
@@ -81,7 +81,7 @@
                        </div>
   	  	  	   	   </div>
   	  	  	   </div>
-  	  	  	   <div class="box wow bounceInUp" data-wow-delay="0.4s">
+  	  	  	   <div class="box wow bounceInUp" data-wow-delay="1.0s">
   	  	  	   	   <div class="inner">
   	  	  	   	   	   <div class="img">
   	  	  	   	   	   	  <img src="web/images/about3.jpg" alt="about" />
@@ -316,7 +316,7 @@
   	 	  	  	  	   </div>
   	 	  	  	  </div>
   	 	  	  </div>
-  	 	  	  <div class="box wow bounceInUp" data-wow-delay="0.2s">
+  	 	  	  <div class="box wow bounceInUp" data-wow-delay="1.0s">
   	 	  	  	  <div class="inner">
   	 	  	  	  	   <div class="price-tag">
   	 	  	  	  	   	  $69/Month
@@ -335,7 +335,7 @@
   	 	  	  	  	   </div>
   	 	  	  	  </div>
   	 	  	  </div>
-  	 	  	  <div class="box wow bounceInUp" data-wow-delay="0.4s">
+  	 	  	  <div class="box wow bounceInUp" data-wow-delay="1.5s">
   	 	  	  	  <div class="inner">
   	 	  	  	  	   <div class="price-tag">
   	 	  	  	  	   	  $99/Month
