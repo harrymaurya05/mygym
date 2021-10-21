@@ -1,462 +1,177 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>AK Fitness Club</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="web/css/animate.css">
-	<link rel="stylesheet" type="text/css" href="web/css/style.css">
-  <style>
-    .wow:first-child {
-      visibility: hidden;
-    }
-  </style>
-  
-</head>
-<body>
- 
- <!-- Start Header  -->
- <header>
- 	 <div class="container">
- 	 	<div class="logo">
- 	 		 <a href="">Fitness <span>Club</span></a>
- 	 	</div>
- 	 	<a href="javascript:void(0)" class="ham-burger">
- 	       <span></span>	
- 	       <span></span>
- 	 	</a>
- 	 	<div class="nav">
- 	 		<ul>
- 	 			<li><a href="src/index.php" >Home</a></li>
- 	 			<li><a href="#about">About</a></li>
- 	 			<li><a href="#service">Services</a></li>
- 	 			<li><a href="#classes">Classes</a></li>
- 	 			<li><a href="#schedule">Schedule</a></li>
- 	 			<li><a href="#price">Price</a></li>
- 	 			<li><a href="#contact">Contact</a></li>
- 	 		</ul>
- 	 	</div>
- 	 </div>
- </header>
- <!-- End Header  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="CMA Tutorials">
+    <meta name="keywords" content="">
+    <meta type="UTF-8">
+    <link rel="stylesheet" href="src/css/intro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <head>
+    </head>
+    <style>
+         .ham-burger{
+            display: inline-block;
+            position: relative;
+            z-index: 100;
+            position: absolute;
+            top:25px;
+            right: 70px;
+        }
+         .ham-burger span{
+            height: 3px;
+            margin-bottom:8px;
+            display: block;
+            background-color:#ffffff;
+            width:30px;
+            -webkit-transition: transform .5s ease;
+            transition: transform .5s ease;
+        }
+         .ham-burger span:nth-child(1){
+            transform-origin: left top;
+        }
+         .ham-burger span:nth-child(2){
+            transform-origin: left bottom;
+        }
 
-  <!-- Start Home -->
-  <section class="home wow flash" id="home">
-  	 <div class="container">
-  	 	  <h1 class="wow slideInLeft" data-wow-delay="1s">It's <span>gym</span> time. Let's go</h1>
-  	 	  <h1 class="wow slideInRight" data-wow-delay="1s">We are ready to <span>fit you</span></h1>
-  	 </div>
-  	  <!-- go down -->
-  	      <a href="#about" class="go-down">
-  	      	  <i class="fa fa-angle-down" aria-hidden="true"></i>
-  	      </a>
-  	  <!-- go down -->
-
-  </section>
-  <!-- End Home -->
-
-
- <!-- Start About -->
-  <section class="about" id="about">
-  	  <div class="container">
-  	  	  <div class="content">
-  	  	  	   <div class="box wow bounceInUp">
-  	  	  	   	   <div class="inner">
-  	  	  	   	   	   <div class="img">
-  	  	  	   	   	   	  <img src="web/images/about1.jpg" alt="about" />
-  	  	  	   	   	   </div>
-                       <div class="text">
-                       	   <h4>Free Consultation</h4>
-                       	   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                       </div>
-  	  	  	   	   </div>
-  	  	  	   </div>
-  	  	  	   	<div class="box wow bounceInUp" data-wow-delay="0.5s">
-  	  	  	   	   <div class="inner">
-  	  	  	   	   	   <div class="img">
-  	  	  	   	   	   	  <img src="web/images/about2.jpg" alt="about" />
-  	  	  	   	   	   </div>
-                       <div class="text">
-                       	   <h4>Best Training</h4>
-                       	   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                       </div>
-  	  	  	   	   </div>
-  	  	  	   </div>
-  	  	  	   <div class="box wow bounceInUp" data-wow-delay="1.0s">
-  	  	  	   	   <div class="inner">
-  	  	  	   	   	   <div class="img">
-  	  	  	   	   	   	  <img src="web/images/about3.jpg" alt="about" />
-  	  	  	   	   	   </div>
-                       <div class="text">
-                       	   <h4>Build Perfect Body</h4>
-                       	   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                       </div>
-  	  	  	   	   </div>
-  	  	  	   </div>
-  	  	  </div>
-  	  </div>
-  </section>
- <!-- End About -->
-
-
- <!-- Start Service -->
- <section class="service" id="service">
- 	<div class="container">
- 		 <div class="content">
- 		 	  <div class="text box wow slideInLeft">
-                  <h2>Services</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                  <a href="" class="btn">Start Now</a>
- 		 	  </div>
- 		 	  <div class="accordian box wow slideInRight">
- 		 	  	    <div class="accordian-container active">
- 		 	  	    	<div class="head">
- 		 	  	    		<h4>Cardiovascular Equipment</h4>
- 		 	  	    		<span class="fa fa-angle-down"></span>
- 		 	  	    	</div>
- 		 	  	    	<div class="body">
- 		 	  	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
- 		 	  	    	</div>
- 		 	  	    </div>
- 		 	  	    <div class="accordian-container">
- 		 	  	    	<div class="head">
- 		 	  	    		<h4>Strength Training Equipment</h4>
- 		 	  	    		<span class="fa fa-angle-up"></span>
- 		 	  	    	</div>
- 		 	  	    	<div class="body">
- 		 	  	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
- 		 	  	    	</div>
- 		 	  	    </div>
- 		 	  	    <div class="accordian-container">
- 		 	  	    	<div class="head">
- 		 	  	    		<h4>Group Fitness Class</h4>
- 		 	  	    		<span class="fa fa-angle-up"></span>
- 		 	  	    	</div>
- 		 	  	    	<div class="body">
- 		 	  	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
- 		 	  	    	</div>
- 		 	  	    </div>
- 		 	  	    <div class="accordian-container">
- 		 	  	    	<div class="head">
- 		 	  	    		<h4>Other Services</h4>
- 		 	  	    		<span class="fa fa-angle-up"></span>
- 		 	  	    	</div>
- 		 	  	    	<div class="body">
- 		 	  	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
- 		 	  	    	</div>
- 		 	  	    </div>
- 		 	  </div>
- 		 </div>
- 	</div>
- </section>
- <!-- End Service -->
-
-<!-- Start Classes -->
-<section class="classes" id="classes">
-	<div class="container">
-		 <div class="content">
-		 	  <div class="box img wow slideInLeft">
-		 	  	 <img src="web/images/class2.png" alt="classes" />
-		 	  </div>
-		 	  <div class="box text wow slideInRight">
-		 	  	 <h2>Our Classes</h2>
-		 	  	 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-		 	  	<div class="class-items">
-		 	  	 <div class="item wow bounceInUp">
-                     <div class="item-img">
-                     	 <img src="web/images/class1.jpg" alt="classes" />
-                     	 <div class="price">
-                     	 	 $99
-                     	 </div>
-                     </div>
-                     <div class="item-text">
-                     	  <h4>Stretching Training</h4>
-                     	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                     	  <a href="">Get Details</a>
-                     </div>
-		 	  	 </div>
-		 	  	 <div class="item wow bounceInUp">
-                     <div class="item-text">
-                     	  <h4>Stretching Training</h4>
-                     	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                     	  <a href="">Get Details</a>
-                     </div>
-                     <div class="item-img">
-                     	 <img src="web/images/class1.jpg" alt="classes" />
-                     	 <div class="price">
-                     	 	 $99
-                     	 </div>
-                     </div>
-		 	  	 </div>
-		 	  	</div>
-		 	  </div>
-		 </div>
-	</div>
-</section>
-<!-- End Classes -->
-
-<!-- Start Today -->
- <section class="start-today">
- 	<div class="container">
- 		 <div class="content">
- 		 	  <div class="box text wow slideInLeft">
- 		 	  	 <h2>Start Your Training Today</h2>
- 		 	  	 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
- 		 	  	 <a href="" class="btn">Start Now</a>
- 		 	  </div>
- 		 	  <div class="box img wow slideInRight">
- 		 	  	 <img src="web/images/gallery4.jpg" alt="start today" />
- 		 	  </div>
-
- 		 </div>
- 	</div>
- </section>
-<!-- End Start Today -->
-
-<!-- Start Schedule -->
-  <section class="schedule" id="schedule">
-  	 <div class="container">
-  	 	  <div class="content">
-  	 	  	   <div class="box text wow slideInLeft">
-  	 	  	   	   <h2>Classes Schedule</h2>
-  	 	  	   	   <p>
-  	 	  	   	   	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-  	 	  	   	   </p>
-  	 	  	   	   <img src="web/images/schedule1.png" alt="schedule" />
-  	 	  	   </div>
-  	 	  	   <div class="box timing wow slideInRight">
-                   <table class="table">
-                   	 <tbody>
-                   	 	<tr>
-                   	 		<td class="day">Monday</td>
-                   	 		<td><strong>9:00 AM</strong></td>
-                   	 		<td>Body Building <br/> 9:00 to 10:00 AM</td>
-                   	 		<td>Room No:210</td>
-                   	 	</tr>
-                   	 	<tr>
-                   	 		<td class="day">Tuesday</td>
-                   	 		<td><strong>9:00 AM</strong></td>
-                   	 		<td>Body Building <br/> 9:00 to 10:00 AM</td>
-                   	 		<td>Room No:210</td>
-                   	 	</tr>
-                   	 	<tr>
-                   	 		<td class="day">Wednesday</td>
-                   	 		<td><strong>9:00 AM</strong></td>
-                   	 		<td>Body Building <br/> 9:00 to 10:00 AM</td>
-                   	 		<td>Room No:210</td>
-                   	 	</tr>
-                   	 	<tr>
-                   	 		<td class="day">Thursday</td>
-                   	 		<td><strong>9:00 AM</strong></td>
-                   	 		<td>Body Building <br/> 9:00 to 10:00 AM</td>
-                   	 		<td>Room No:210</td>
-                   	 	</tr>
-                   	 	<tr>
-                   	 		<td class="day">Friday</td>
-                   	 		<td><strong>9:00 AM</strong></td>
-                   	 		<td>Body Building <br/> 9:00 to 10:00 AM</td>
-                   	 		<td>Room No:210</td>
-                   	 	</tr>
-                   	 	<tr>
-                   	 		<td class="day">Saturday</td>
-                   	 		<td><strong>9:00 AM</strong></td>
-                   	 		<td>Body Building <br/> 9:00 to 10:00 AM</td>
-                   	 		<td>Room No:210</td>
-                   	 	</tr>
-                   	 </tbody>
-                   </table>
-  	 	  	   </div>
-  	 	  </div>
-  	 </div>
-  </section>
-<!-- End Schedule -->
-
-<!-- Start Gallery -->
-  <section class="gallery" id="gallery">
-  	 <h2>Workout Gallery</h2>
-  	<div class="content">
-  		 <div class="box wow slideInLeft">
-  		 	 <img src="web/images/gallery1.jpg" alt="gallery" />
-  		 </div>
-  		 <div class="box wow slideInRight">
-  		 	 <img src="web/images/gallery2.jpg" alt="gallery" />
-  		 </div>
-  		 <div class="box wow slideInLeft">
-  		 	 <img src="web/images/gallery3.jpg" alt="gallery" />
-  		 </div>
-  		 <div class="box wow slideInRight">
-  		 	 <img src="web/images/gallery4.jpg" alt="gallery" />
-  		 </div>
-  	</div>
-  </section>
-<!-- End Gallery -->
-
- <!-- Start Price -->
-  <section class="price-package" id="price">
-  	 <div class="container">
-  	 	  <h2>Choose Your Package</h2>
-  	 	  <p class="title-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-  	 	  <div class="content">
-  	 	  	  <div class="box wow bounceInUp">
-  	 	  	  	  <div class="inner">
-  	 	  	  	  	   <div class="price-tag">
-  	 	  	  	  	   	  $59/Month
-  	 	  	  	  	   </div>
-  	 	  	  	  	   <div class="img">
-  	 	  	  	  	   	 <img src="web/images/price1.jpg" alt="price" />
-  	 	  	  	  	   </div>
-  	 	  	  	  	   <div class="text">
-  	 	  	  	  	   	  <h3>Body Building Training</h3>
-  	 	  	  	  	   	  <p>Get Free WiFi</p>
-  	 	  	  	  	   	  <p>Month to Month</p>
-  	 	  	  	  	   	  <p>No Time Restrictions</p>
-  	 	  	  	  	   	  <p>Gym and Cardio</p>
-  	 	  	  	  	   	  <p>Service Locker Rooms</p>
-  	 	  	  	  	   	  <a href="" class="btn">Join Now</a>
-  	 	  	  	  	   </div>
-  	 	  	  	  </div>
-  	 	  	  </div>
-  	 	  	  <div class="box wow bounceInUp" data-wow-delay="1.0s">
-  	 	  	  	  <div class="inner">
-  	 	  	  	  	   <div class="price-tag">
-  	 	  	  	  	   	  $69/Month
-  	 	  	  	  	   </div>
-  	 	  	  	  	   <div class="img">
-  	 	  	  	  	   	 <img src="web/images/price2.jpg" alt="price" />
-  	 	  	  	  	   </div>
-  	 	  	  	  	   <div class="text">
-  	 	  	  	  	   	  <h3>Body Building Training</h3>
-  	 	  	  	  	   	  <p>Get Free WiFi</p>
-  	 	  	  	  	   	  <p>Month to Month</p>
-  	 	  	  	  	   	  <p>No Time Restrictions</p>
-  	 	  	  	  	   	  <p>Gym and Cardio</p>
-  	 	  	  	  	   	  <p>Service Locker Rooms</p>
-  	 	  	  	  	   	  <a href="" class="btn">Join Now</a>
-  	 	  	  	  	   </div>
-  	 	  	  	  </div>
-  	 	  	  </div>
-  	 	  	  <div class="box wow bounceInUp" data-wow-delay="1.5s">
-  	 	  	  	  <div class="inner">
-  	 	  	  	  	   <div class="price-tag">
-  	 	  	  	  	   	  $99/Month
-  	 	  	  	  	   </div>
-  	 	  	  	  	   <div class="img">
-  	 	  	  	  	   	 <img src="web/images/price3.jpg" alt="price" />
-  	 	  	  	  	   </div>
-  	 	  	  	  	   <div class="text">
-  	 	  	  	  	   	  <h3>Body Building Training</h3>
-  	 	  	  	  	   	  <p>Get Free WiFi</p>
-  	 	  	  	  	   	  <p>Month to Month</p>
-  	 	  	  	  	   	  <p>No Time Restrictions</p>
-  	 	  	  	  	   	  <p>Gym and Cardio</p>
-  	 	  	  	  	   	  <p>Service Locker Rooms</p>
-  	 	  	  	  	   	  <a href="" class="btn">Join Now</a>
-  	 	  	  	  	   </div>
-  	 	  	  	  </div>
-  	 	  	  </div>
-  	 	  </div>
-  	 </div>
-  </section>
- <!-- End Price -->
-
- <!-- Start Contact -->
-  <section class="contact" id="contact">
-     <div class="container">
-        <div class="content">
-            <div class="box form wow slideInLeft">
-               <form>
-                  <input type="text" placeholder="Enter Name">
-                  <input type="text" placeholder="Enter Email">
-                  <input type="text" placeholder="Enter Mobile">
-                  <textarea placeholder="Enter Message"></textarea>
-                  <button type="submit">Send Message</button>
-               </form>
+         .ham-burger.active span:nth-child(1){
+            -webkit-transform: rotate(45deg) translateY(-6px);
+            transform: rotate(45deg) translateY(-6px);
+        }
+         .ham-burger.active span:nth-child(2){
+            -webkit-transform: rotate(-45deg) translateY(6px);
+            transform: rotate(-45deg) translateY(6px)
+        }
+         .nav{
+            position: fixed;
+            background-color: #c11325;
+            width: 280px;
+            top:0;
+            right:0;
+            height: 100%;
+            z-index: 99;
+            padding:100px 0px 15px; 
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+            -webkit-transition: transform .5s ease;
+            transition: transform .5s ease;
+        }
+         .nav.open{
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+         .nav ul{
+            list-style: none;
+            margin:0;
+            padding:0px;
+        }
+         .nav ul li{
+        display: block;
+        }
+         .nav ul li a{
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: 400;
+            color:#ffffff;
+            display: block;
+            position: relative;
+            padding:10px 30px;
+        }
+         .nav ul li a.active::before{
+            content: '';
+            position: absolute;
+            left:0px;
+            top:0px;
+            height: 100%;
+            width:100%;
+            background-color:#000000;
+            opacity:.2;
+            -webkit-transition: width .5s ease;
+            transition: width .5s ease;
+            z-index: -1;
+        }
+         .nav ul li a::before{
+            content: '';
+            position: absolute;
+            left:0px;
+            top:0px;
+            height: 100%;
+            width:0px;
+            background-color:#000000;
+            opacity:.2;
+            -webkit-transition: width .5s ease;
+            transition: width .5s ease;
+            z-index: -1;
+        }
+         .nav ul li a:hover::before{
+            width: 100%;
+        }
+    </style>
+    <body>   
+        <div class="container">
+            <div class="background"></div>
+            <div class="logo">
+                <h1><b>GYM</b> Time</h1>
             </div>
-            <div class="box text wow slideInRight">
-                 <h2>Get Connected with Gym</h2>
-                  <p class="title-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                  <div class="info">
-                      <ul>
-                          <li><span class="fa fa-map-marker"></span> Gali no 11, House no 11, Lahore</li>
-                          <li><span class="fa fa-phone"></span> 92 9999999999</li>
-                          <li><span class="fa fa-envelope"></span> info@gym.com</li>
-                      </ul>
-                  </div>
-                  <div class="social">
-                       <a href=""><span class="fa fa-facebook"></span></a>
-                       <a href=""><span class="fa fa-linkedin"></span></a>
-                       <a href=""><span class="fa fa-skype"></span></a>
-                       <a href=""><span class="fa fa-youtube-play"></span></a>
-                  </div>
-
-                  <div class="copy">
-                      PowerBy &copy; Ali Ahmad
-                  </div>
+            <a href="javascript:void(0)" class="ham-burger" >
+                <span></span>	
+                <span></span>
+              </a>
+              <div class="nav">
+                <ul>
+                    <li><a href="src/index.php" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+                <div class="image">
+                <img src="img/myimg.png" alt="">
+                </div>
+                <div class="text">
+                    <h6>Shape Your Body</h6>
+                    <h2>BE <span>STRONG </span>TRANING HARD</h2>
+                    <p>Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Donec frin gill a tinc idunt dictum. Phasellus mollis tellus et cur sus laci nia.Donec vitae rhon cus lorem.</p>
+                    <button>Read More</button>
+                </div>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
-     </div>
-  </section>
- <!-- End Contact -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
 
+            $(".ham-burger, .nav ul li a").click(function(){
+            
+                $(".nav").toggleClass("open")
 
+                $(".ham-burger").toggleClass("active");
+            }) 
+            $(".nav ul li a, .go-down").click(function(event){
+                if(this.hash !== ""){
 
- <!-- jquery -->
+                    event.preventDefault();
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-	$(document).ready(function(){
+                    var hash=this.hash; 
 
-      $(".ham-burger, .nav ul li a").click(function(){
-       
-        $(".nav").toggleClass("open")
+                    $('html,body').animate({
+                        scrollTop:$(hash).offset().top
+                    },800 , function(){
+                        window.location.hash=hash;
+                    });
 
-        $(".ham-burger").toggleClass("active");
-      })      
-      $(".accordian-container").click(function(){
-      	$(".accordian-container").children(".body").slideUp();
-      	$(".accordian-container").removeClass("active")
-      	$(".accordian-container").children(".head").children("span").removeClass("fa-angle-down").addClass("fa-angle-up")
-      	$(this).children(".body").slideDown();
-      	$(this).addClass("active")
-      	$(this).children(".head").children("span").removeClass("fa-angle-up").addClass("fa-angle-down")
-      })
-
-       $(".nav ul li a, .go-down").click(function(event){
-         if(this.hash !== ""){
-
-              event.preventDefault();
-
-              var hash=this.hash; 
-
-              $('html,body').animate({
-                scrollTop:$(hash).offset().top
-              },800 , function(){
-                 window.location.hash=hash;
-              });
-
-              // add active class in navigation
-              $(".nav ul li a").removeClass("active")
-              $(this).addClass("active")
-         }
-      })
-})
-
-</script>
-<script src="web/js/wow.min.js"></script>
-<script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       0,
-      }
-    );
-    wow.init();
-  </script>
-</body>
+                    // add active class in navigation
+                    $(".nav ul li a").removeClass("active")
+                    $(this).addClass("active")
+                }
+            })
+        })
+      </script>
+    </body>
 </html>
-
-
-
-
-
-

@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+if(isset($_SESSION["user_data"]))
+{
+    header("location:./dashboard/admin/");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +18,7 @@
 </head>
 <body>
   <div class="login-wrapper">
-    <form action="" class="form">
+    <form action="secure_login.php" class="form" method="POST">
       <h2>Login</h2>
       <div class="input-group">
         <input type="text" name="loginUser" id="loginUser" required>
@@ -20,7 +29,7 @@
         <label for="loginPassword">Password</label>
       </div>
       <input type="submit" value="Login" class="submit-btn">
-      <a href="#forgot-pw" class="forgot-pw">Forgot Password?</a>
+      <a href="forgot_password.php" class="forgot-pw">Forgot Password?</a>
     </form>
 
     <div id="forgot-pw">

@@ -78,7 +78,7 @@ body {
 }
 .form .input-group input:focus + label,
 .form .input-group input:valid + label {
-  transform: translateY(-18px);
+  transform: translateY(-26px);
   color: #f80404;
   font-size: .8rem;
 }

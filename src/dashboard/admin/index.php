@@ -69,7 +69,7 @@ page_protect();
 							</li>					
 						
 							<li>
-								<a href="logout.php">
+								<a href="../src/logout.php">
 									Log Out <i class="entypo-logout right"></i>
 								</a>
 							</li>

@@ -3,88 +3,46 @@
 session_start();
 if(isset($_SESSION["user_data"]))
 {
-	header("location:./dashboard/admin/");
+    header("location:./dashboard/admin/");
 }
 
 ?>
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Titan Gym | Login</title>
-	<link rel="stylesheet" href="./css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="./css/entypo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../kiran/style.css">
+  <title>Login Form </title>
 </head>
 <body>
+  <div class="login-wrapper">
+    <form action="secure_login.php" class="form" method="POST">
+      <h2>Login</h2>
+      <div class="input-group">
+        <input type="text" name="user_id_auth" id="loginUser" required>
+        <label for="loginUser">User Name</label>
+      </div>
+      <div class="input-group">
+        <input type="password" name="pass_key" id="loginPassword" required>
+        <label for="loginPassword">Password</label>
+      </div>
+      <input type="submit" value="Login" class="submit-btn">
+      <a href="forgot_password.php" class="forgot-pw">Forgot Password?</a>
+    </form>
 
-<body class="page-body login-page login-form-fall">
-    	<div id="container">
-			<div class="login-container">
-	
-	<div class="login-header login-caret">
-		
-		<div class="login-content">
-			
-			<a href="#" class="logo">
-				<img src="./images/logo.png" alt="" />
-			</a>
-			
-			<p class="description">Dear user, log in to access the admin area!</p>
-			
-			<!-- progress bar indicator -->
-			<div class="login-progressbar-indicator">
-				<h3>43%</h3>
-				<span>logging in...</span>
-			</div>
-		</div>
-		
-	</div>
-	
-	<div class="login-progressbar">
-		<div></div>
-	</div>
-	
-	<div class="login-form">
-		
-		<div class="login-content">
-			
-			<form action="secure_login.php" method='post' id="bb">				
-				<div class="form-group">					
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="entypo-user"></i>
-						</div>
-							<input type="text" placeholder="User ID" class="form-control" name="user_id_auth" id="textfield" data-rule-minlength="6" data-rule-required="true">
-					</div>
-				</div>				
-								
-				<div class="form-group">					
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="entypo-key"></i>
-						</div>
-						<input type="password" name="pass_key" id="pwfield" class="form-control" data-rule-required="true" data-rule-minlength="6" placeholder="Password">
-					</div>				
-				</div>
-				
-				<div class="form-group">
-					<button type="submit" name="btnLogin" class="btn btn-primary">
-						Login In
-						<i class="entypo-login"></i>
-					</button>
-				</div>
-			</form>
-		
-				<div class="login-bottom-links">
-					<a href="forgot_password.php" class="link">Forgot your password?</a>
-				</div>			
-		</div>
-		
-	</div>
-	
-</div>
-
-		</div>
-
+    <div id="forgot-pw">
+      <form action="" class="form">
+        <a href="#" class="close">&times;</a>
+        <h2>Reset Password</h2>
+        <div class="input-group">
+          <input type="email" name="email" id="email" required>
+          <label for="email">Email</label>
+        </div>
+        <input type="submit" value="Submit" class="submit-btn">
+      </form>
+    </div>
+  </div>
 </body>
 </html>
